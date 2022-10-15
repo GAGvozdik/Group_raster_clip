@@ -1,2 +1,8 @@
 # Group_raster_clip
-Проект аркгис с импортированным модулем для обрезки группы растров. Arkgis project with an imported module for cropping a group of rasters.
+Проект аркгис с импортированным модулем для обрезки группы растров. 
+
+При первом запуске проекта, выполните следующие действия:
+	Откройте в каталоге Arcmap папку с проектом 
+	Затем в GROUP_TIFF_CUT зайдите в properties файла GroupRasterClip
+	Заходите в source
+	В графе script file указываете путь к файлу 0_1.py, который лежит в папке с проектом
