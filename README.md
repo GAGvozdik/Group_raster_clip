@@ -1,38 +1,48 @@
-# Group_raster_clip
+# Group_raster_clip EN
+Arcmap project with imported group clipping module. 
+For Arcgis version 10.8. Possible problems when running on older versions. Module is written in python 2.7.
+
+Instructions:
+Open CUT_TIFF_BY_SHAPE.mxd project.
+In the directory, select the GroupRasterClip tool in GROUP_TIFF_CUT.tbx.
+
+![Illustration 1](https://github.com/GAGvozdik/Group_raster_clip/blob/main/img/instruction1.PNG)
+
+In the window that opens select the folder where the TIFF files are located.
+Choose a contour of the .shp type.
+Select the folder where you want to save the cropped images.
+
+Illustration 1](https://github.com/GAGvozdik/Group_raster_clip/blob/main/img/instruction2.PNG)
+
+When you run the module again with the same input files and the same output folder, the files in the output folder will be overwritten
+
+The documentation help for the arcpy methods used is https://desktop.arcgis.com/en/arcmap/latest/tools/data-management-toolbox/clip.htm.
+You can also contact support
+email: nagel20@yandex.ru
+telegram: 8 925 735 32 87
+
+Translated with www.DeepL.com/Translator (free version)
+
+
+# Group_raster_clip RU
 Проект Arcmap с импортированным модулем для обрезки группы растров. 
+Для версии Arcgis 10.8. Возможны проблемы при запуске на старых версиях. Модуль написан на python 2.7.
 
-Для версии Arcgis 10.8. Возможны проблемы при запуске на сильно старых версиях. Модуль написан на python 2.7.
+Инструкция:
+Открыть проект CUT_TIFF_BY_SHAPE.mxd.
+В каталоге выбрать инструмент GroupRasterClip в GROUP_TIFF_CUT.tbx.
 
+![Illustration 1](https://github.com/GAGvozdik/Group_raster_clip/blob/main/img/instruction1.PNG)
 
-	
-При первом запуске проекта, выполните следующие действия:
-	Откройте свой проект. 
-	В каталоге Arcmap откройте скачанную папку Group_raster_clip с проектом, где содержится модуль
-	Затем в GROUP_TIFF_CUT зайдите в properties файла GroupRasterClip
-	Заходите в source
-	В графе script file указываете путь к файлу 0_1.py, который лежит в папке с проектом
+В открывшемся окне выбрать папку, в которой лежат файлы TIFF.
+Выбрать контур типа .shp.
+Выбрать папку, куда сохранятся обрезанные растры.
 
+![Illustration 1](https://github.com/GAGvozdik/Group_raster_clip/blob/main/img/instruction2.PNG)
 
-справка по документации используемых методов arcpy - https://desktop.arcgis.com/en/arcmap/latest/tools/data-management-toolbox/clip.htm
+При повторном запуске модуля с теми же входными файлами и той же выходной папкой, файлы в выходной папке перезапишутся
 
-при повторном запуске модуля с теми же входными файлами и той же выходной папкой, файлы в выходной папке перезапишутся
-
-
-При возникновении ошибок возможно помогут следующие действия:
- 	перейдите с помощью проводника к папке python27\Lib\site-packages 
-	и добавьте или отредактируйте файл Desktop10.8.pth. 
-	Файл должен содержать три строки, как показано ниже (исправьте системные пути, если они отличаются):
-
-	c:\Program Files\ArcGIS\Desktop10.8\arcpy
-	c:\Program Files\ArcGIS\Desktop10.8\bin
-	c:\Program Files\ArcGIS\Desktop10.8\ArcToolbox\Scripts
-
-	затем используйте сочетание клавишь Win + R
-	введите в открывшемся окне cmd (должен открыться терминал с черным фоном)
-	в терминале введите python --version. терминал должен вывести python версии 2.7.
-	введите pip install numpy
-	дождитесь завершения установки, закройте терминал
-
+Cправка по документации используемых методов arcpy - https://desktop.arcgis.com/en/arcmap/latest/tools/data-management-toolbox/clip.htm
 Также можно обратиться в поддержку
-почта nagel20@yandex.ru
-telegram 8 925 735 32 87
+почта: nagel20@yandex.ru
+telegram: 8 925 735 32 87
