@@ -12,7 +12,7 @@ In the window that opens select the folder where the TIFF files are located.
 Choose a contour of the .shp type.
 Select the folder where you want to save the cropped images.
 
-Illustration 1](https://github.com/GAGvozdik/Group_raster_clip/blob/main/img/instruction2.PNG)
+![Illustration 1](https://github.com/GAGvozdik/Group_raster_clip/blob/main/img/instruction2.PNG)
 
 When you run the module again with the same input files and the same output folder, the files in the output folder will be overwritten
 
